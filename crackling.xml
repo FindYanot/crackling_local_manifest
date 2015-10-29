@@ -9,11 +9,11 @@
 	<!-- Kernel -->
 	<project path="kernel/cyanogen/msm8916" name ="CyanogenMod/android_kernel_cyanogen_msm8916" remote="git" revision="cm-12.1-amms-2.1" />
 	<!-- Vendor -->
-	<project path="vendor/wileyfox/crackling" name ="" remote="git" revision="" />
+	<project path="vendor/wileyfox/crackling" name ="TheMuppets/proprietary_vendor_wileyfox" remote="git" revision="cm-12.1" />
 	<!-- Quallcom addons -->
 	<project path="device/qcom/common" name ="CyanogenMod/android_device_qcom_common" remote="git" revision="cm-12.1" /> <!-- Del if exist -->
 	<project path="external/mm-dash" name ="CyanogenMod/adnroid_external_mm-dash" remote="git" revision="cm-12.1" />
-	<project path="hardware/qcom/fm" name ="CyanogenMod/android_hardware_qcom_fm" remote="git" revision="" />
+	<project path="hardware/qcom/fm" name ="CyanogenMod/android_hardware_qcom_fm" remote="git" revision="cm-12.1" />
 	<!-- MSM8916 addons -->
 	<project path="device/cyanogen/msm8916-common" name ="CyanogenMod/android_device_cyanogen_msm8916-common" remote="git" revision="cm-12.1" />
 </manifest>
