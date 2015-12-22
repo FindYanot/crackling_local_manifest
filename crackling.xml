@@ -10,8 +10,6 @@
 	<project path="kernel/cyanogen/msm8916" name ="CyanogenMod/android_kernel_cyanogen_msm8916" remote="git" revision="cm-13.0-amss-2.1" />
 	<!-- Vendor -->
 	<project path="vendor/wileyfox" name ="TheMuppets/proprietary_vendor_wileyfox" remote="git" revision="cm-13.0" />
-	<!-- Quallcom addons -->
-	<project path="device/qcom/common" name ="CyanogenMod/android_device_qcom_common" remote="git" revision="cm-13.0" /> <!-- Del if exist -->
 	<project path="hardware/qcom/fm" name ="CyanogenMod/android_hardware_qcom_fm" remote="git" revision="cm-13.0" />
 	<!-- MSM8916 addons -->
 	<project path="device/cyanogen/msm8916-common" name ="CyanogenMod/android_device_cyanogen_msm8916-common" remote="git" revision="cm-13.0" />
