@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <!-- Remote name -->
+        <remote name="git"
+                        fetch="git://github.com" />
+
+        <!-- Device tree -->
+        <project path="device/wileyfox/crackling" name ="CyanogenMod/android_device_wileyfox_crackling" remote="git" revision="cm-13.0" />
+        <!-- Kernel -->
+        <project path="kernel/cyanogen/msm8916" name ="CyanogenMod/android_kernel_cyanogen_msm8916" remote="git" revision="cm-13.0" />
+        <!-- Vendor -->
+        <project path="vendor/wileyfox" name ="TheMuppets/proprietary_vendor_wileyfox" remote="git" revision="cm-13.0" />
+        <!-- MSM8916 addons -->
+        <project path="device/cyanogen/msm8916-common" name ="CyanogenMod/android_device_cyanogen_msm8916-common" remote="git" revision="cm-13.0" />
+</manifest>
