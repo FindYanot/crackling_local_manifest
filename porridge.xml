@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <!-- Remote name -->
+        <remote name="git"
+                        fetch="git://github.com" />
+
+        <!-- Device tree -->
+        <project path="device/wileyfox/porridge" name ="CyanogenMod/android_device_wileyfox_porridge" remote="git" revision="cm-13.0" />
+        <!-- Kernel -->
+        <project path="kernel/cyanogen/mt6735" name ="CyanogenMod/android_kernel_cyanogen_mt6735" remote="git" revision="cm-13.0" />
+        <!-- Vendor -->
+        <project path="vendor/wileyfox" name ="TheMuppets/proprietary_vendor_wileyfox" remote="git" revision="cm-13.0" />
+        <!-- MTK addons -->
+        <project path="device/cyanogen/mt6735-common" name ="CyanogenMod/android_device_cyanogen_mt6735-common" remote="git" revision="cm-13.0" />
+</manifest>
